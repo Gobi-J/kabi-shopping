@@ -1,5 +1,6 @@
 import Header from "./components/Header/Header"
 import Router from "./routes/Route"
+import Footer from "./components/Footer/Footer"
 import './App.css'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
     <Header />
     <Router />
+    <Footer />
     </>
   )
 }

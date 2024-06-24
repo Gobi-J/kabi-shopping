@@ -2,7 +2,7 @@ import { featureData } from "../../assets/data/feature";
 
 const Features = () => {
   return (
-    <section className="flex justify-evenly gap-3 my-4 flex-wrap">
+    <section className="flex justify-evenly gap-3 my-4 mx-4 flex-wrap">
       {featureData.map((feature, index) => (
         <div
           key={index}

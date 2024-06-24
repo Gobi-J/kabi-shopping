@@ -68,6 +68,12 @@ button.white {
   justify-content: center;
 }
 
+@media screen and (max-width:900px) {
+    .hero-main{
+        background-position: top 25% right 30%;
+    }    
+}
+
 .hero-btn{
     background-image: url('./assets/images/button.png');
     background-color: transparent;

@@ -10,6 +10,7 @@ const BannerMd = () => {
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "flex-start",
+    flexGrow:1,
     minWidth: "50%",
     height: "50vh",
     backgroundSize: "cover",
@@ -19,7 +20,7 @@ const BannerMd = () => {
 
   return (
     <>
-      <section className="flex justify-between flex-nowrap px-[20px] py-[20px] md:px-[40px] md:py-[40px] lg:px-[80px]">
+      <section className="flex justify-between flex-wrap px-[20px] py-[20px] md:px-[40px] md:py-[40px] lg:px-[80px]">
         <div style={{...style1, backgroundImage:`url(${bg1})`}}>
           <h4 className="text-white font-semibold">Crazy Deals</h4>
           <h2 className="text-white py-3">Buy 1 Get 1 free</h2>

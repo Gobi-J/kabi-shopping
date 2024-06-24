@@ -3,6 +3,7 @@ import ProductSm from "../components/Product/productSm";
 import { products } from "../assets/data/products";
 import Banner from "../components/Banners/Banner";
 import BannerMd from "../components/Banners/BannerMd";
+import NewsLetter from "../components/NewsLetter/NewsLetter";
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
         <h4 className="py-4 font-medium">Trade-in-offer</h4>
         <h2 className="font-semibold">Super Value deals</h2>
         <h1 className="text-primary font-semibold">On all products</h1>
-        <p>Save more with coupons</p>
+        <p className="text-white">Save more with coupons</p>
         <button className="hero-btn">Shop Now</button>
       </main>
       <Features />
@@ -43,6 +44,7 @@ const Home = () => {
         </div>
       </section>
       <BannerMd />
+      <NewsLetter />
     </>
   );
 };

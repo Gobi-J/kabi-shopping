@@ -1,7 +1,7 @@
 import { FaStar, FaShoppingBag } from "react-icons/fa";
 const productSm = ({ name, brand, image, rating, price }) => {
   return (
-    <div className="min-w-[250px] w-[23%] py-3 px-4 border rounded-lg my-4 text-start relative hover:shadow-lg">
+    <div className="w-full md:min-w-[300px] md:w-[23%] py-3 px-4 border rounded-lg my-4 text-start relative hover:shadow-lg">
       <img src={image} className="rounded-lg" />
       <div className="py-3">
         <span className="text-[#606063] text-base">{brand}</span>
