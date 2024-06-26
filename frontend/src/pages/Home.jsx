@@ -12,7 +12,7 @@ const Home = () => {
         <h4 className="py-4 font-medium">Trade-in-offer</h4>
         <h2 className="font-semibold">Super Value deals</h2>
         <h1 className="text-primary font-semibold">On all products</h1>
-        <p className="text-white">Save more with coupons</p>
+        <p>Save more with coupons</p>
         <button className="hero-btn">Shop Now</button>
       </main>
       <Features />
